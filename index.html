@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bölüşelim — Gizlilik Politikası</title>
+<style>
+  :root {
+    --ground: #f4f4f5;
+    --card: #ffffff;
+    --ink: #3b3b3b;
+    --ink-soft: #6c6c70;
+    --ink-faint: #8a8a8e;
+    --rule: #e6e6e9;
+    --accent: #0a6fe8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #1c1c1e;
+      --card: #2b2b2e;
+      --ink: #f2f2f2;
+      --ink-soft: #b4b4b8;
+      --ink-faint: #8e8e93;
+      --rule: #3a3a3d;
+      --accent: #63a8ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 400 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { margin-bottom: 40px; }
+  h1 { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 6px; }
+  .sub { color: var(--ink-faint); font-size: 15px; margin: 0; }
+  .lang { margin: 28px 0 0; font-size: 15px; }
+  .lang a { color: var(--accent); text-decoration: none; }
+  .lang a:hover { text-decoration: underline; }
+  section {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 24px 24px 4px;
+    margin-bottom: 14px;
+  }
+  h2 {
+    font-size: 20px; font-weight: 600; letter-spacing: -0.01em;
+    margin: 0 0 12px;
+  }
+  h3 {
+    font-size: 15px; font-weight: 600; color: var(--ink-soft);
+    margin: 22px 0 6px; text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  p, li { color: var(--ink-soft); margin: 0 0 14px; }
+  li { margin-bottom: 8px; }
+  ul { padding-left: 22px; margin: 0 0 16px; }
+  strong { color: var(--ink); font-weight: 600; }
+  .lede {
+    background: var(--card); border-radius: 16px; padding: 24px;
+    margin-bottom: 14px; border-left: 3px solid var(--accent);
+  }
+  .lede p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 18px; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--ink); font-weight: 600; width: 36%; }
+  td { color: var(--ink-soft); }
+  tr:last-child th, tr:last-child td { border-bottom: none; }
+  footer { margin-top: 40px; color: var(--ink-faint); font-size: 14px; }
+  a { color: var(--accent); }
+  hr.split { border: none; border-top: 1px solid var(--rule); margin: 56px 0 40px; }
+  @media (max-width: 520px) {
+    h1 { font-size: 28px; }
+    section, .lede { padding: 20px 18px 2px; }
+    .lede { padding-bottom: 20px; }
+    th { width: 42%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<!-- ====================== TÜRKÇE ====================== -->
+<header id="tr">
+  <h1>Gizlilik Politikası</h1>
+  <p class="sub">Bölüşelim · Son güncelleme: 17 Eylül 2026</p>
+  <p class="lang"><a href="#en">Read in English ↓</a></p>
+</header>
+
+<div class="lede">
+  <p><strong>Bölüşelim paraya karışmaz.</strong> Tahsilat yapmaz, cüzdan
+  tutmaz, transfer başlatmaz. Yaptığı tek şey grup harcamalarının hesabını
+  tutmak ve alacaklının IBAN'ını göstermektir. Ödemeyi siz kendi bankanızdan
+  yaparsınız; uygulamanın o işlemden haberi olmaz.</p>
+  <p>Reklam göstermiyoruz, analitik aracı kullanmıyoruz, verinizi kimseye
+  satmıyoruz ve sizi uygulamalar arasında izlemiyoruz.</p>
+</div>
+
+<section>
+  <h2>Hangi verileri işliyoruz</h2>
+
+  <table>
+    <tr>
+      <th>Ad</th>
+      <td>Apple ile giriş sırasında alınır. Grup arkadaşlarınızın kimin ne
+      ödediğini görebilmesi için gerekli.</td>
+    </tr>
+    <tr>
+      <th>E‑posta adresi</th>
+      <td>Apple ile giriş sırasında alınır. Apple'ın “E‑postamı Gizle”
+      seçeneğini kullanırsanız bize yalnızca Apple'ın ürettiği takma adres
+      ulaşır; gerçek adresinizi hiçbir zaman görmeyiz. Hesabınızı tanımak
+      dışında kullanılmaz; pazarlama e‑postası göndermiyoruz.</td>
+    </tr>
+    <tr>
+      <th>IBAN</th>
+      <td><strong>İsteğe bağlı.</strong> Girmezseniz uygulamanın geri kalanını
+      kullanabilirsiniz. Girerseniz yalnızca <em>aynı grupta bulunduğunuz
+      kişiler</em> görür ve kopyalayabilir — size ödeme yapabilmeleri için.
+      Uygulama bu numarayla hiçbir işlem yapmaz.</td>
+    </tr>
+    <tr>
+      <th>Harcama kayıtları</th>
+      <td>Girdiğiniz tutarlar, açıklamalar, tarihler, kategoriler ve bunlardan
+      hesaplanan borç/alacak durumu. Uygulamanın var oluş sebebi.</td>
+    </tr>
+    <tr>
+      <th>Fotoğraflar</th>
+      <td><strong>İsteğe bağlı.</strong> Fiş fotoğrafı ve profil resmi. Fişler
+      özel bir alanda tutulur ve yalnızca ilgili grubun üyeleri erişebilir;
+      profil resmi grup arkadaşlarınıza görünür.</td>
+    </tr>
+    <tr>
+      <th>Hesap kimliği ve davet kodu</th>
+      <td>Hesabınızı tanımlayan kimlik ve sizi gruba davet etmek için
+      kullanılan altı haneli kod.</td>
+    </tr>
+    <tr>
+      <th>Cihaz bildirim belirteci</th>
+      <td>Bildirimlere izin verirseniz, telefonunuza bildirim ulaştırabilmek
+      için Apple'ın verdiği belirteç saklanır. İzin vermezseniz saklanmaz.</td>
+    </tr>
+  </table>
+
+  <p>Konum bilgisi, rehberiniz, sağlık verisi, tarama geçmişi ve reklam
+  kimliği <strong>hiçbir şekilde</strong> işlenmez.</p>
+</section>
+
+<section>
+  <h2>Verinizi kim görür</h2>
+  <p><strong>Grup arkadaşlarınız.</strong> Bir gruba katıldığınızda o grubun
+  aktif üyeleri adınızı, profil resminizi, girdiğiniz harcamaları ve —
+  girdiyseniz — IBAN'ınızı görür. Grup ortak bir defterdir; kimin ne ödediğini
+  gizlemek uygulamanın işini yapmasını engellerdi.</p>
+  <p>Bir davet <em>kabul edilene kadar</em> karşı taraf grubun içeriğini
+  göremez; aynı şekilde davet edilen kişinin bilgileri de gruba açılmaz.</p>
+  <p><strong>Başka kimse.</strong> Veriyi üçüncü taraflara satmıyor,
+  kiralamıyor ve reklam amacıyla paylaşmıyoruz.</p>
+
+  <h3>Hizmet sağlayıcılar</h3>
+  <ul>
+    <li><strong>Supabase</strong> — veritabanı ve dosya saklama. Veriyi bizim
+    adımıza barındırır, kendi amaçları için kullanmaz.</li>
+    <li><strong>Apple</strong> — “Apple ile Giriş” ve bildirim gönderimi
+    (APNs).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Verinizi nasıl koruyoruz</h2>
+  <ul>
+    <li>Tüm iletişim TLS ile şifrelenir.</li>
+    <li>Erişim, veritabanı düzeyinde satır bazlı kurallarla sınırlanır: bir
+    kayda ancak o gruba ait olan kişi erişebilir. Bu kurallar uygulamada
+    değil, veritabanının kendisinde tanımlıdır — uygulamayı değiştirerek
+    aşılamazlar.</li>
+    <li>Fiş fotoğrafları herkese kapalı bir alanda tutulur; görüntülemek için
+    kısa ömürlü, imzalı bağlantı üretilir.</li>
+    <li>Parola tutmuyoruz — giriş tamamen Apple üzerinden yapılıyor.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Ne kadar süre saklanır</h2>
+  <p>Hesabınız açık kaldığı sürece. Uygulama içinden
+  <strong>Profil → Hesabı sil</strong> ile silebilirsiniz.</p>
+  <p>Hesap silindiğinde adınız, e‑postanız, IBAN'ınız, profil resminiz ve
+  Apple bağlantınız <strong>kalıcı olarak silinir</strong>.</p>
+  <p>Girdiğiniz harcama kayıtları silinmez, <strong>“Silinmiş kullanıcı”</strong>
+  adıyla grupta kalır. Sebebi şu: o kayıtlar yalnızca sizin değil, grubun geri
+  kalanının da hesabıdır. Silinmeleri, başkalarının alacak ve borçlarının
+  yanlış hesaplanmasına yol açardı. Bu kayıtlarda sizi tanımlayan hiçbir bilgi
+  kalmaz.</p>
+</section>
+
+<section>
+  <h2>Haklarınız</h2>
+  <p>KVKK ve GDPR kapsamında verilerinize erişme, düzeltilmesini veya
+  silinmesini isteme, işlemeye itiraz etme ve verinizin bir kopyasını alma
+  hakkınız var.</p>
+  <p>Ad, e‑posta ve IBAN'ı uygulama içinden istediğiniz zaman
+  değiştirebilir, hesabınızı yine uygulama içinden silebilirsiniz. Diğer
+  talepleriniz için aşağıdaki adrese yazın.</p>
+</section>
+
+<section>
+  <h2>Çocuklar</h2>
+  <p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan
+  veri toplamayız.</p>
+</section>
+
+<section>
+  <h2>Değişiklikler</h2>
+  <p>Bu politika değişirse sayfanın üstündeki tarih güncellenir. Önemli bir
+  değişiklik olursa uygulama içinde bildiririz.</p>
+</section>
+
+<section>
+  <h2>İletişim</h2>
+  <p>Gizlilikle ilgili her konu için:
+  <a href="mailto:boluselim.destek@gmail.com">boluselim.destek@gmail.com</a></p>
+</section>
+
+<hr class="split">
+
+<!-- ====================== ENGLISH ====================== -->
+<header id="en">
+  <h1>Privacy Policy</h1>
+  <p class="sub">Bölüşelim · Last updated: 17 September 2026</p>
+  <p class="lang"><a href="#tr">Türkçe oku ↑</a></p>
+</header>
+
+<div class="lede">
+  <p><strong>Bölüşelim never handles money.</strong> It takes no payments,
+  holds no wallet and initiates no transfers. All it does is keep the tally of
+  a group's shared expenses and show the creditor's IBAN. You make the payment
+  through your own bank; the app never learns that it happened.</p>
+  <p>We show no ads, use no analytics tools, sell your data to no one, and do
+  not track you across apps or websites.</p>
+</div>
+
+<section>
+  <h2>What we process</h2>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <td>Taken at Sign in with Apple. Needed so the people in your group can
+      see who paid for what.</td>
+    </tr>
+    <tr>
+      <th>Email address</th>
+      <td>Taken at Sign in with Apple. If you use Apple's “Hide My Email”, we
+      only ever receive the relay address Apple generates — we never see your
+      real one. Used only to identify your account; we send no marketing
+      email.</td>
+    </tr>
+    <tr>
+      <th>IBAN</th>
+      <td><strong>Optional.</strong> The rest of the app works without it. If
+      you add one, only <em>people in the same group as you</em> can see and
+      copy it, so they can pay you. The app performs no transaction with it.</td>
+    </tr>
+    <tr>
+      <th>Expense records</th>
+      <td>The amounts, descriptions, dates and categories you enter, and the
+      balances calculated from them. This is what the app exists for.</td>
+    </tr>
+    <tr>
+      <th>Photos</th>
+      <td><strong>Optional.</strong> Receipt photos and your profile picture.
+      Receipts are kept in a private store that only members of the relevant
+      group can reach; your profile picture is visible to your group.</td>
+    </tr>
+    <tr>
+      <th>Account ID and invite code</th>
+      <td>The identifier for your account and the six-character code used to
+      invite you to a group.</td>
+    </tr>
+    <tr>
+      <th>Device push token</th>
+      <td>If you allow notifications, the token Apple issues is stored so we
+      can deliver them. If you don't, nothing is stored.</td>
+    </tr>
+  </table>
+
+  <p>We process <strong>no</strong> location data, contacts, health data,
+  browsing history or advertising identifier.</p>
+</section>
+
+<section>
+  <h2>Who can see your data</h2>
+  <p><strong>The people in your groups.</strong> When you join a group, its
+  active members can see your name, profile picture, the expenses you enter
+  and — if you added one — your IBAN. A group is a shared ledger; hiding who
+  paid for what would stop the app doing its job.</p>
+  <p>Until an invitation is <em>accepted</em>, the invited person cannot see
+  the group's contents — and equally, their details are not exposed to the
+  group.</p>
+  <p><strong>Nobody else.</strong> We do not sell, rent or share your data
+  with third parties for advertising.</p>
+
+  <h3>Service providers</h3>
+  <ul>
+    <li><strong>Supabase</strong> — database and file storage. Hosts the data
+    on our behalf and does not use it for its own purposes.</li>
+    <li><strong>Apple</strong> — Sign in with Apple and push notification
+    delivery (APNs).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How we protect it</h2>
+  <ul>
+    <li>All traffic is encrypted with TLS.</li>
+    <li>Access is restricted by row-level rules in the database itself: a
+    record can only be reached by someone who belongs to that group. These
+    rules live in the database, not in the app — changing the app cannot get
+    around them.</li>
+    <li>Receipt photos sit in a private store; viewing one generates a
+    short-lived signed link.</li>
+    <li>We hold no passwords — sign-in goes entirely through Apple.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How long we keep it</h2>
+  <p>For as long as your account exists. You can delete it from inside the app
+  under <strong>Profile → Delete account</strong>.</p>
+  <p>On deletion your name, email, IBAN, profile picture and Apple link are
+  <strong>permanently erased</strong>.</p>
+  <p>The expense records you entered are not deleted; they remain in the group
+  under the name <strong>“Deleted user”</strong>. The reason: those records are
+  not only yours, they are the rest of the group's accounts too. Removing them
+  would make other people's balances wrong. Nothing identifying you remains in
+  them.</p>
+</section>
+
+<section>
+  <h2>Your rights</h2>
+  <p>Under GDPR and Turkey's KVKK you have the right to access your data, have
+  it corrected or erased, object to its processing, and receive a copy of it.</p>
+  <p>You can change your name, email and IBAN inside the app at any time, and
+  delete your account from inside the app too. For anything else, write to the
+  address below.</p>
+</section>
+
+<section>
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and we do not knowingly
+  collect data from them.</p>
+</section>
+
+<section>
+  <h2>Changes</h2>
+  <p>If this policy changes, the date at the top of the page is updated. We
+  will tell you in the app if the change is significant.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>For anything to do with privacy:
+  <a href="mailto:boluselim.destek@gmail.com">boluselim.destek@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>Bölüşelim · <span id="yil">2026</span></p>
+</footer>
+
+</div>
+</body>
+</html>
